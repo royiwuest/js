@@ -11,7 +11,7 @@ function validarUsuario(numeroIntento, cantidadDeIntentos) {
     let usuarioMinuscula = usuario.toLocaleLowerCase();
     let pass = prompt("Ingrese su contraseña: ");
     if ((usuarioMinuscula === user) && (pass === password)) {
-        alert(`Bienvenido ${user}!`);
+        alert(`Bienvenid@ ${user}!`);
         ingreso = true;
         return true;
     } else {
@@ -23,7 +23,7 @@ function validarUsuario(numeroIntento, cantidadDeIntentos) {
 // Funcion de opciones
 
 const opcionesDeIngreso = () => {
-    let opcion = prompt("Que desea hacer: \n 1 - Ingresar Dinero \n 2 - Extraer Dinero \n 3 - Consultar Saldo.");
+    let opcion = prompt("Que desea hacer: \n 1 - Ingresar Dinero \n 2 - Extraer Dinero \n 3 - Consultar Saldo");
     return Number(opcion)
 }
 
