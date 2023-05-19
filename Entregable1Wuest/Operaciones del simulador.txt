@@ -2,6 +2,4 @@ Simulador Cajero Automático.
 Contiene:
 
 Login (valudacición de usuario y contraseña / permite hasta 3 (tres) intentos.)
-Menú con opciones: Ingreso y Retiro de dinero. Consulta de Saldo.
-
-
+Menú con opciones: Ingreso y Retiro de dinero. Consulta de Saldo. (No actualiza el saldo inicial)
